@@ -51,7 +51,7 @@
    "fieldtype": "Select",
    "in_standard_filter": 1,
    "label": "Status",
-   "options": "Hired\nRejected\nIn Progress"
+   "options": "Hired\nRejected\nIn Progress\nCancelled"
   },
   {
    "fieldname": "amended_from",
@@ -66,7 +66,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-06-24 10:50:50.244372",
+ "modified": "2025-06-24 11:41:34.085518",
  "modified_by": "Administrator",
  "module": "Interview Management",
  "name": "Interview Schedule",
@@ -100,6 +100,10 @@
   {
    "color": "Yellow",
    "title": "In Progress"
+  },
+  {
+   "color": "Blue",
+   "title": "Cancelled"
   }
  ]
 }

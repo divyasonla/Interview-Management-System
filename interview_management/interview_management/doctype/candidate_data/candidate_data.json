@@ -15,6 +15,7 @@
   "phone_number",
   "resume_upload",
   "age",
+  "status",
   "gender",
   "current_location"
  ],
@@ -92,12 +93,19 @@
    "fieldname": "current_location",
    "fieldtype": "Small Text",
    "label": "Current Location"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "New\nInterview Scheduled\nSelected\nRejected",
+   "reqd": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-06-24 10:42:12.701954",
+ "modified": "2025-06-24 11:50:36.138528",
  "modified_by": "Administrator",
  "module": "Interview Management",
  "name": "Candidate Data",
